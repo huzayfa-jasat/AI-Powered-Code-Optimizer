@@ -5,7 +5,7 @@ The AI optimizer follows a structured approach:
 2. Performance Measurement (Before Optimization) – The performance.py module measures execution time and memory usage.
 3. AI Optimization – The script is sent to Google’s Gemini AI for enhancement. The AI refactors the code to improve efficiency while preserving functionality.
 4. Performance Measurement (After Optimization) – The improved code is evaluated again.
-4. Visualization – Performance differences are displayed using Matplotlib graphs and Streamlit metrics.
+4. Visualization – Performance differences are displayed using Matplotlib graphs and Streamlit metrics. <br/> 
 **Assumptions and Constraints**
 The AI optimization strictly avoids unnecessary complexity (e.g., no replacing simple loops with recursion).
 The model does not refactor algorithm logic beyond improving execution/memory performance.
